@@ -1,0 +1,8 @@
+.bc-simple-text{
+  background: stencilColor("background_color");;
+  color: stencilColor("color");
+  text-align: stencilString("text_align");
+  padding: 10px;
+  font-weight: 500;
+  font-size:24px;
+}

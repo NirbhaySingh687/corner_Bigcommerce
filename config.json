@@ -340,6 +340,12 @@
     "paymentbanners-proddetailspage-color": "white",
     "paymentbanners-proddetailspage-ratio": "8x1",
     "paymentbuttons-container": "medium",
+    "color": "#ffffff",
+    "background_color": "#3C1F8C",
+    "font_size": 24,
+    "font_weight": "Google_Open+Sans_400",
+    "text_align": "center",
+    "content": "I am a sample text",
     "supported_card_type_icons": [
       "american_express",
       "diners_club",
