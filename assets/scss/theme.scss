@@ -77,3 +77,7 @@
 // -----------------------------------------------------------------------------
 
 @import "layouts/layouts"; // 1
+//imports all stylesheets under scss/custom folder
+@import "custom/header"; 
+@import "custom/body";  
+@import "custom/footer";  
