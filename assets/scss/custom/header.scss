@@ -1,0 +1,145 @@
+.sl-header{
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    //justify-content: center;
+    padding: 0px 12px;
+
+    // position: absolute;
+    width: 100%;
+    height: 74px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.09);
+
+}
+
+.header-logo-container, .header-logo-img{
+    width: 149px;
+    height: 25px;
+    max-width: 149px;
+    max-height: 25px;
+}
+
+.header-nav{
+    // border: 1px solid red;
+    margin-left: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-nav__list{
+    margin: 0;
+    // border: 1px solid blue;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-nav__list-item{
+    color: #36363A;
+    margin-right: 42px;
+}
+
+.nav-list-item__page-link{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 18.6px;
+    font-weight: 700;
+}
+
+.header-support{
+    // border: 1px solid red;
+    margin-left: 243px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-support__list{
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-support__list-item{
+    color: #36363A;
+    margin-right: 20px;
+}
+
+.support-list-item__action{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 18.6px;
+    font-weight: 700;
+}
+
+.header-actions-container{
+    margin-left: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+.header-action-btns{
+    margin-right: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.header-action-btn{
+    margin: 0;
+    padding: 11px 20px;
+    gap: 10px;
+    border-radius: 3px;
+    color: #ffffff;
+   // font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.preview{
+    background: #1A2541;
+    margin-right: 15px;
+}
+
+.login{
+    background: #318269;
+}
+
+.header-action-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-action-icon{
+    margin: 0;
+    font-size: 18px;
+    width: 18px;
+    height: 18px;
+    color: #2B2E30;
+}
+
+.search{
+    margin-left: 40px;
+}
