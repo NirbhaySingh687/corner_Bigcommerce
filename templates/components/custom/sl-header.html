@@ -1,14 +1,18 @@
 <header class="sl-header">
+  <div class="sl-header-navbar">
     <div class="header-logo-container">
-        <img class="header-logo-img"
-             src="{{cdn 'assets/img/custom/sl-logo.svg'}}"
-             alt="sl-logo" >  
+      <img
+        class="header-logo-img"
+        src="{{cdn 'assets/img/custom/sl-logo.svg'}}"
+        alt="sl-logo"
+      />
     </div>
     {{> components/custom/sl-navigation-menu}}
-    {{> components/custom/sl-support}}
-    {{> components/custom/sl-header-actions}}
+  </div>
+  <div class="sl-header-actionbar">
+    {{> components/custom/sl-support}} {{> components/custom/sl-header-actions}}
+  </div>
 </header>
-
 
 <!-- default bc code below -->
 <!-- <a href="#main-content" class="skip-to-main-link">{{lang 'header.skip_to_main'}}</a>
@@ -45,5 +49,3 @@
 </header>
 {{{region name="header_bottom--global"}}}
 {{{region name="header_bottom"}}} -->
-
-
