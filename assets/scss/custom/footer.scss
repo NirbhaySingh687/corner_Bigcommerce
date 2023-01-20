@@ -2,19 +2,111 @@
     position: sticky;
     top: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    padding: 10px 135px;
+    //justify-content: space-between;
+   // padding: 10px 135px;
     // gap: 10px;
     // position: absolute;
     width: 100%;
-    height: 64px;
+  //  height: 64px;
     left: 0px;
     bottom: 0px;
     margin-bottom: 0;
     background: #1A2541;
 
+}
+.sl-footer-copyright, .sl-footer-info{
+    display: flex;
+    flex-direction: row;
+    //align-items: center;
+    justify-content: space-between;
+}
+.sl-footer-copyright{
+
+    background: #1A2541;
+    height: 64px;
+    padding: 10px 135px;
+}
+.sl-footer-info{
+   // margin: 0;
+   background: rgba(255, 255, 255, 0.99);
+    height: 180px;
+    width: 100%;
+    padding: 0 135px;
+}
+
+ .footer-logo-img{
+    width: 240px;
+    height: 68px;
+    max-width: 240px;
+    max-height: 68px;
+  
+}
+.footer-logo-container{
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.footer-links-container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+   // justify-content: center;
+}
+.footer-links__pages{
+    margin-top: 47px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+.footer-nav__list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.footer-nav__list-item{
+    color: #1A2541;
+    margin-left: 25px;
+    //styleName: button-link;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 27px;
+    letter-spacing: 0.07em;
+}
+
+.nav-list-item__page-link{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 18.6px;
+    font-weight: 700;
+   
+}
+.footer-links__support{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.footer-support{
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+}
+.footer-support-list-item__action{
+    color: #416CD9;
+    font-size: 15px;
+    line-height: 18.6px;
+    font-weight: 700;
+}
+.toll-free{
+  text-decoration: none;
 }
 .footer-copyright-container{
     width: 580px;
